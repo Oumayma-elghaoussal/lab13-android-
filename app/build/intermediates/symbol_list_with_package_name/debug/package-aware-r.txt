@@ -3235,6 +3235,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnMap
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3362,7 +3363,6 @@ id immediateStop
 id included
 id indeterminate
 id info
-id infoCard
 id invisible
 id inward
 id italic
@@ -3616,9 +3616,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvInfo
-id tvLatLng
-id tvProvider
+id tvLat
+id tvLon
 id unchecked
 id uniform
 id unlabeled
@@ -3758,6 +3757,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_main
 layout activity_maps
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -4005,11 +4005,15 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string new_location
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string provider_disabled
+string provider_enabled
+string provider_new_status
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

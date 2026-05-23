@@ -9,9 +9,12 @@
         android:targetSdkVersion="34" />
 
     <!-- Permissions -->
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature
@@ -40,15 +43,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.GPSMap" >
+        android:theme="@style/Theme.GPSMap"
+        android:usesCleartextTraffic="true" >
 
         <!-- Google Maps API Key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="YOUR_API_KEY_HERE" />
 
+        <!-- MainActivity = launcher (GPS screen) -->
         <activity
-            android:name="com.example.hellotoast.MapsActivity"
+            android:name="com.example.hellotoast.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,6 +61,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- MapsActivity (Google Map) -->
+        <activity
+            android:name="com.example.hellotoast.MapsActivity"
+            android:exported="false" />
 
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library

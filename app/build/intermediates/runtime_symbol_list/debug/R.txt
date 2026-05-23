@@ -3234,6 +3234,7 @@ int id bounce 0x7f080060
 int id bounceBoth 0x7f080061
 int id bounceEnd 0x7f080062
 int id bounceStart 0x7f080063
+int id btnMap 0x7f080207
 int id buttonPanel 0x7f080066
 int id cache_measures 0x7f080067
 int id callMeasure 0x7f080068
@@ -3361,7 +3362,6 @@ int id immediateStop 0x7f0800e1
 int id included 0x7f0800e2
 int id indeterminate 0x7f0800e3
 int id info 0x7f0800e4
-int id infoCard 0x7f080200
 int id invisible 0x7f0800e5
 int id inward 0x7f0800e6
 int id italic 0x7f0800e7
@@ -3615,9 +3615,8 @@ int id transition_position 0x7f0801db
 int id transition_scene_layoutid_cache 0x7f0801dc
 int id transition_transform 0x7f0801dd
 int id triangle 0x7f0801de
-int id tvInfo 0x7f080204
-int id tvLatLng 0x7f080205
-int id tvProvider 0x7f080206
+int id tvLat 0x7f080208
+int id tvLon 0x7f080209
 int id unchecked 0x7f0801e7
 int id uniform 0x7f0801e8
 int id unlabeled 0x7f0801e9
@@ -3757,6 +3756,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_main 0x7f0b001c
 int layout activity_maps 0x7f0b006a
 int layout custom_dialog 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e
@@ -4004,11 +4004,15 @@ int string mtrl_switch_track_decoration_path 0x7f0f00a2
 int string mtrl_switch_track_path 0x7f0f00a3
 int string mtrl_timepicker_cancel 0x7f0f00a4
 int string mtrl_timepicker_confirm 0x7f0f00a5
+int string new_location 0x7f0f00b3
 int string password_toggle_content_description 0x7f0f00a6
 int string path_password_eye 0x7f0f00a7
 int string path_password_eye_mask_strike_through 0x7f0f00a8
 int string path_password_eye_mask_visible 0x7f0f00a9
 int string path_password_strike_through 0x7f0f00aa
+int string provider_disabled 0x7f0f00b4
+int string provider_enabled 0x7f0f00b5
+int string provider_new_status 0x7f0f00b6
 int string search_menu_title 0x7f0f00ab
 int string searchbar_scrolling_view_behavior 0x7f0f00ac
 int string searchview_clear_text_content_description 0x7f0f00ad
