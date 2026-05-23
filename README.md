@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# LAB 12 — GPS et Map (Google Maps Activity)
+# LAB 13 — GPS et Map (Google Maps Activity)
 
 ## 📋 Objectifs
 
@@ -118,7 +118,8 @@ Pour simuler des positions GPS sur l'émulateur Android :
 5. Cliquer sur **Set Location**
 6. Un marker apparaît sur la carte et l'info panel se met à jour
 =======
-# lab13-android : : Localisation temps réel via GPS et Google Maps
+
+# lab13-android :  Localisation temps réel via GPS et Google Maps
 
 
 lancer wamp server : 
